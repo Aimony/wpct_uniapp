@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pay/pay",
+    "pages/suggest/suggest",
+    "pages/personal/personal",
+    "pages/suggest/historysuggest/historysuggest"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "缴费",
+        "pagePath": "pages/pay/pay"
+      },
+      {
+        "text": "意见和建议",
+        "pagePath": "pages/suggest/suggest"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

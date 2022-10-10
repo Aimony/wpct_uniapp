@@ -1,0 +1,13 @@
+
+.history{
+		text-align: center;
+}
+.return{
+		margin-top: 550rpx;
+		text-align: center;
+}
+.select{
+		text-align: center;
+		margin-left: 270rpx;
+		margin-top: 500rpx;
+}
