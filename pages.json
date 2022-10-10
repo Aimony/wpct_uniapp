@@ -17,10 +17,11 @@
         }
         ,{
             "path" : "pages/suggest/suggest",
-            "style" :                                                                                    
+            "style" :                                                                             
             {
                 "navigationBarTitleText": "意见和建议",
                 "enablePullDownRefresh": false
+				
             }
             
         }
@@ -31,13 +32,15 @@
                 "navigationBarTitleText": "个人中心",
                 "enablePullDownRefresh": false
             }
-            
-        }
+			
+		}
+        
+       
         ,{
-            "path" : "pages/suggest/historysuggest/historysuggest",
+            "path" : "pages/historySuggest/historySuggest",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "历史建议",
+                "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
             
@@ -51,22 +54,35 @@
 	},
 	"uniIdRouter": {},
 	"tabBar": {
+		"backgroundColor": "#Ffffff",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"fontSize": "10px",
+		
 		"list": [
 			{
 				"text": "首页",
-				"pagePath": "pages/index/index"
+				"pagePath": "pages/index/index",
+				"iconPath": "static/首页icon.png",
+				"selectedIconPath": "static/首页icon.png"
 			},
 			{
 				"text": "缴费",
-				"pagePath": "pages/pay/pay"
+				"pagePath": "pages/pay/pay",
+				"iconPath": "static/支付.png",
+				"selectedIconPath": "static/支付.png"
 			},
 			{
 				"text": "意见和建议",
-				"pagePath": "pages/suggest/suggest"
+				"pagePath": "pages/suggest/suggest",
+				"iconPath": "static/user-talk.png",
+				"selectedIconPath": "static/user-talk.png"
 			},
 			{
 				"text": "个人中心",
-				"pagePath": "pages/personal/personal"
+				"pagePath": "pages/personal/personal",
+				"iconPath": "static/basic_people_f.png",
+				"selectedIconPath": "static/basic_people_f.png"
 			}
 		]
 	}

@@ -1,0 +1,6 @@
+
+.background{
+		height: 100%;
+		position: relative;
+		background-color: aliceblue;
+}

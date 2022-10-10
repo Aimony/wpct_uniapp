@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="background">
 		
 	</view>
 </template>
@@ -18,5 +18,9 @@
 </script>
 
 <style>
-
+	.background{
+		height: 100%;
+		position: relative;
+		background-color: aliceblue;
+	}
 </style>

@@ -1,1 +1,0 @@
-<view><view class="history">历史意见和建议</view><button size="mini" class="select">查询历史建议</button><navigator url="../../index/index" class="return">返回首页</navigator></view>

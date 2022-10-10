@@ -7,7 +7,7 @@ if (!Math) {
   "./pages/pay/pay.js";
   "./pages/suggest/suggest.js";
   "./pages/personal/personal.js";
-  "./pages/suggest/historysuggest/historysuggest.js";
+  "./pages/historySuggest/historySuggest.js";
 }
 const _sfc_main = {
   onLaunch: function() {
