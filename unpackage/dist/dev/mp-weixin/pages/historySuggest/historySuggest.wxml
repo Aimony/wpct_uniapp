@@ -1,0 +1,1 @@
+<view><view class="title"><view>历史建议</view></view><button class="select" size="mini">查询</button><navigator class="return" open-type="navigateBack">返回</navigator></view>

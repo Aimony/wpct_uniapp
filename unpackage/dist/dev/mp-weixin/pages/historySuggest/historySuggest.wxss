@@ -1,0 +1,12 @@
+
+.select{
+		margin-top: 600rpx;
+		margin-left: 320rpx;
+}
+.title{
+		text-align: center;
+}
+.return{
+		text-align: center;
+		margin-top: 50rpx;
+}
