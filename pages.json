@@ -1,5 +1,5 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -22,6 +22,7 @@
                 "navigationBarTitleText": "意见和建议",
                 "enablePullDownRefresh": false
 				
+				
             }
             
         }
@@ -40,7 +41,7 @@
             "path" : "pages/historySuggest/historySuggest",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "历史建议",
                 "enablePullDownRefresh": false
             }
             
@@ -58,7 +59,6 @@
 		"selectedColor": "#000000",
 		"borderStyle": "black",
 		"fontSize": "10px",
-		
 		"list": [
 			{
 				"text": "首页",
